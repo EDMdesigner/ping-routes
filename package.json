@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://gyulanemeth@github.com/gyulanemeth/ping-routes.git"
+		"url": "git://github.com/EDMdesigner/ping-routes.git"
 	},
 	"keywords": [
 		"nodejs",
@@ -22,9 +22,9 @@
 	"author": "Gyula Németh",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/gyulanemeth/ping-routes/issues"
+		"url": "https://github.com/EDMdesigner/ping-routes/issues"
 	},
-	"homepage": "https://github.com/gyulanemeth/ping-routes",
+	"homepage": "https://github.com/EDMdesigner/ping-routes",
 	"dependencies": {
 		"express-ping": "^1.1.0",
 		"mongoose": "3.8.12",
