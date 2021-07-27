@@ -1,6 +1,6 @@
 {
 	"name": "@EDMdesigner/ping-routes",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"description": "Ping routes for node.js",
 	"main": "index.js",
 	"scripts": {
@@ -26,8 +26,8 @@
 	},
 	"homepage": "https://github.com/gyulanemeth/ping-routes",
 	"dependencies": {
-		"express-ping": "^1.1.0",
-		"mongoose": "3.8.12",
+		"express-ping": "1.4.0",
+		"mongoose": "5.13.3",
 		"redis": "0.10.3"
 	}
 }
