@@ -1,14 +1,14 @@
 pipeline {
 	agent any
 	tools {
-		nodejs 'Node 12'
+		nodejs 'Node 16'
 	}
 	stages {
 		stage('build') {
 			steps {
 				withNPM(npmrcConfig:'npmrc-github') {
- 					sh 'npm install'
- 				}
+					sh 'npm install'
+				}
 			}
 		}
 		stage('build and deploy master') {
